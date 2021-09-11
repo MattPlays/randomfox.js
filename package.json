@@ -1,0 +1,25 @@
+{
+  "name": "@mattplays/randomfox.js",
+  "version": "1.0.0",
+  "description": "randomfox.js utilizes the randomfox API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattPlays/randomfox.js.git"
+  },
+  "keywords": [
+    "randomfox",
+    "foxs",
+    "API"
+  ],
+  "author": "MattPlays (https://github.com/MattPlays/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattPlays/randomfox.js/issues"
+  },
+  "homepage": "https://github.com/MattPlays/randomfox.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

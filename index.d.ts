@@ -1,0 +1,1 @@
+export default async function(): Promise<{image: string, link: string}>
