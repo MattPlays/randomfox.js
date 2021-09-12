@@ -1,6 +1,6 @@
 {
   "name": "@mattplays/randomfox.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "randomfox.js utilizes the randomfox API",
   "main": "index.js",
   "types": "index.d.ts",
