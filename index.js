@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+const axios = require("axios").default;
 /**
  * @returns {Promise<{image: string, link: string}>}
  * @example
@@ -8,12 +8,13 @@ const fetch = require("node-fetch");
  * })
  */
 module.exports = async() => {
-    return fetch("https://randomfox.ca/floof/", {
-        "method": "GET",
-        "headers": {
+    return axios({
+        method: "GET",
+        url: "https://randomfox.ca/floof/",
+        headers: {
             "Accept": "application/json"
         }
-    }).then(data => data.json()).then((data) => {
+    }).then(({data}) => {
         return {
             image: decodeURI(data.image),
             link: decodeURI(data.link)

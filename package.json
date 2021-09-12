@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/MattPlays/randomfox.js#readme",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "axios": "^0.21.4"
   }
 }
